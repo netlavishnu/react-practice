@@ -1,24 +1,29 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+// import Wish from './components/Wish.js';
+// import Input from './components/Input.js';
+// import Counter from './components/Counter.js';
+// import Constant from './components/Constant.js';
+// import Name from './components/Name.js';
+import Gallery from "./components/Gallery.js";
+// import Friends from './components/Friends.js';
+// import Persons from './components/Persons.js';
+// import Table from './components/Table.js';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/* <Wish name={"ramu"} />
+     <Wish name={"kiran"}/>
+     <Wish name={"sanni"}/> */}
+      {/* <Input /> */}
+      {/* <Counter /> */}
+      {/* <Name /> */}
+      <Gallery />
+      {/* <Friends /> */}
+      {/* <Persons /> */}
+      {/* <Table /> */}
+      {/* <Constant /> */}
     </div>
   );
 }
