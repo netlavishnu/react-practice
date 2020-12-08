@@ -1,14 +1,14 @@
 import React from "react";
 import "./App.css";
 // import Wish from './components/Wish.js';
-// import Input from './components/Input.js';
-// import Counter from './components/Counter.js';
+// import Input from "./components/Input.js";
+// import Counter from "./components/Counter.js";
 // import Constant from './components/Constant.js';
-// import Name from './components/Name.js';
-import Gallery from "./components/Gallery.js";
-// import Friends from './components/Friends.js';
-// import Persons from './components/Persons.js';
-// import Table from './components/Table.js';
+// import Name from "./components/Name.js";
+// import Gallery from "./components/Gallery.js";
+// import Friends from "./components/Friends.js";
+// import Persons from "./components/Persons.js";
+import Table from "./components/Table.js";
 
 function App() {
   return (
@@ -19,10 +19,10 @@ function App() {
       {/* <Input /> */}
       {/* <Counter /> */}
       {/* <Name /> */}
-      <Gallery />
+      {/* <Gallery /> */}
       {/* <Friends /> */}
       {/* <Persons /> */}
-      {/* <Table /> */}
+      <Table />
       {/* <Constant /> */}
     </div>
   );
